@@ -1,5 +1,7 @@
 # QUnit Dark Theme
 
+[![NPM](https://nodei.co/npm/qunit-dark.png?mini=true)](https://nodei.co/npm/qunit-dark/)
+
 Yet another Qunit theme
 
 ## Usage

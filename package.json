@@ -16,7 +16,8 @@
     "url": "http://www.opensource.org/licenses/mit-license.php"
   },
   "scripts": {
-    "test": "grunt test"
+    "test": "grunt test",
+    "prepublish" : "grunt"
   },
   "keywords": [
     "qunit",
