@@ -132,8 +132,8 @@ module.exports = function ( grunt ) {
       },
       'css-qunit': {
         src: [
-          'anim.less',
-          'qunit.less'
+          'less/anim.less',
+          'less/qunit.less'
         ],
         dest: 'dist/qunit-dark.css'
       }
@@ -178,7 +178,7 @@ module.exports = function ( grunt ) {
     // endregion
 
     qunit: {
-      all: ['test/index.html']
+      all: [ 'test/index.html' ]
     }
   };
 
@@ -190,7 +190,7 @@ module.exports = function ( grunt ) {
 
     "css": [ 'cLess', 'autoprefixer', 'csso' ],
 
-    "test": ['qunit'],
+    "test": [ 'qunit' ],
 
     "default": [ 'validate', 'ez-frontend', 'css' ]
   };
